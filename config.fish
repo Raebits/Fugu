@@ -11,6 +11,13 @@ if status is-interactive
   # Commands to run in interactive sessions can go here
 end
 
+### exa ###
+if type -q exa
+  alias ll "exa -l -g --icons" # exa aliasing
+  alias lla "ll -a" # exa aliasing
+end
+### /exa ###
+
 alias "ex"="exit" # exit alias
 alias "v"="nvim" # Neovim alias
 alias "vi"="nvim" # Neovim alias
