@@ -14,6 +14,7 @@ end
 ### exa ###
 if type -q exa
   alias ll "exa -l -g --icons" # exa aliasing
+  alias llt "ll --tree" # exa aliasing tree
   alias lla "ll -a" # exa aliasing
 end
 ### /exa ###
@@ -24,6 +25,7 @@ alias "vi"="nvim" # Neovim alias
 alias "vim"="nvim" # Neovim alias
 
 alias "clr"="clear" # clear alias
+alias "c"="clear" # clear alias
 
 ### nvm ###
 # nvm config uses the oh-my-fish nvm plugin
