@@ -1,4 +1,5 @@
 function fish_greeting
-    fortune
+    # fortune
+    echo "Kapan resign ?"
 end
 
